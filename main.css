@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100dvw;
+}
+
+body{
+    background-color:rgb(234, 234, 234)
+
+}
+
+/* Nav Style */
+
+nav{
+    position: fixed;
+    z-index: 1;
+}
+
+#main-nav{
+    width: 100dvw;
+    height: 6dvh;
+   
+    background-color: rgb(69, 78, 177);
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+}
+
+.nav1{
+    display: flex;
+    margin: 0 5dvw 0px 0;
+    padding: 10px;
+
+    text-decoration: none;
+    color: #ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    font-weight: bolder;
+    
+}
+
+.nav1:hover{
+    background-color: #8385da;
+    color: #000000;
+    /* box-shadow: 2px 2px; */
+    transition: 0.8s;
+    border-radius: 2px;
+}
+.nav1:active{
+    background-color: aliceblue;
+    box-shadow: none;
+    color: #000000;
+    transform: translateX(1px);
+    transition: 0ms;
+
+}
+
+.nav2{
+      text-decoration: none;
+      padding: 5px;
+    color: #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    font-weight: 500;
+
+}
+
+.nav2:hover{
+    background-color: #606169;
+    transition: 0.8s;
+    border-radius: 3px;
+    color: #ffffff;
+
+}
+
+#catogery{
+     width: 100dvw;
+    height: 4dvh;
+   
+    background-color: rgb(198, 204, 210);
+      display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    
+
+}
+
+
+/* Main page */
+
+
+
+main{
+    padding: 5dvh 5dvw 5dvw 5dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+/* about-us */
+
+#about-us{
+    padding-top: 15dvh;
+    padding-bottom: 5dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     padding-left: 1dvw;
+    
+
+}
+
+#about-us .p{
+    padding-left: 2dvw;
+    padding-top: 10dvh; 
+    padding-bottom: 40dvh;
+    font-size: 1.8dvw;
+}
+
+#us{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 10dvh;
+}
+
+
+hr{
+   height: 3px;
+   color: #000000;
+   background-color: #000000;
+   width: 50dvw;
+  margin-left: 20dvw;
+  margin-top: 5dvh;
+}
+
+/* items */
+
+#items {
+    /* border: 2px solid black; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.jjj{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center ;
+    /* justify-content: center; */
+    margin-left: 5dvw;
+   
+    
+
+}
+
+#running{
+      display:flex;
+    flex-wrap: wrap;
+   
+    padding: 5px;
+}
+
+#sneakrs{
+      display:flex;
+    flex-wrap: wrap;
+   
+    padding: 5px;
+}
+
+#walking{
+      display:flex;
+    flex-wrap: wrap;
+   
+    padding: 5px;
+}
+.a{
+    
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     width: 25dvw;
+    margin: 10px;
+    margin-top: 10dvh;
+    padding: 20px;
+     /* background:linear-gradient(180deg,#fff,#cbd4fcd2 0%) ; */
+     background-color: aliceblue;
+       font-family: Arial, Helvetica, sans-serif;
+    
+        box-shadow: none;
+}
+
+.a:hover{
+    /* transform: scale(1.001); */
+    color: #000000;  
+   background:linear-gradient(180deg,#fff, rgba(206, 206, 206, 0.747) 0%) ;
+   /* border: 2px solid black; */
+   transition: .5s;
+      box-shadow: 1px 1px 10px 1px  black;
+  
+}
+
+
+img{
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+    /* padding-left: 3dvw; */
+}
+
+.name-of-the-item{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.2dvw;
+    color: #e0c22c;
+    margin: 3dvh 3dvw 3dvw 3dvh;
+}
+
+.describe{
+    margin: 5px;
+    font-size: 1.4dvw;
+}
+
+.price{
+    align-items: center;
+    margin: 5px;
+    color: rgb(173, 0, 0);
+    font-size: 2dvw;
+}
+
+.price:hover{
+    color: #d15a5a;
+}
+
+/* shipping */
+
+#shipping{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5% ;
+}
+
+#shipp{
+    width: 30%;
+    height: 30%;
+}
+
+#shipping .p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1dvw;
+    margin-top: 3dvh;
+    max-width: 60%;
+}
+
+#shipping h2{
+    margin: 2dvh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
